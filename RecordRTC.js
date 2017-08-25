@@ -1,6 +1,6 @@
 'use strict';
 
-// Last time updated: 2017-08-12 5:10:02 AM UTC
+// Last time updated: 2017-08-25 9:06:39 PM UTC
 
 // ________________
 // RecordRTC v5.4.3
@@ -1471,7 +1471,7 @@ var browserFakeUserAgent = 'Fake/5.0 (FakeOS) AppleWebKit/123 (KHTML, like Gecko
 
     if (typeof document === 'undefined') {
         /*global document:true */
-        that.document = {};
+        /*that.document = {};
 
         document.createElement = document.captureStream = document.mozCaptureStream = function() {
             var obj = {
@@ -1486,7 +1486,7 @@ var browserFakeUserAgent = 'Fake/5.0 (FakeOS) AppleWebKit/123 (KHTML, like Gecko
                 }
             };
             return obj;
-        };
+        };*/
 
         that.HTMLVideoElement = function() {};
     }
